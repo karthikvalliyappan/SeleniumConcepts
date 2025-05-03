@@ -1,4 +1,4 @@
-package com.cg.driver;
+package com.cg.javascriptexecutor;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
