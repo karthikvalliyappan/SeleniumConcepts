@@ -18,6 +18,7 @@ public class KeyUpAndDown   // typing the letter in uppercase
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Search Doodles']"));
 
         Actions actions = new Actions(driver);
+
         actions.moveToElement(element)
                 .click()
                 .keyDown(Keys.SHIFT)
