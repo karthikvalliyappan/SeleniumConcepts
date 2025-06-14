@@ -24,7 +24,6 @@ public class GetCityForCountry
         {
             List<WebElement> columns = row.findElements(By.tagName("td"));
             String expectedCountry = "India";
-
             if(columns.size()>=2)
             {
                 String actualCountry = columns.get(1).getText();
